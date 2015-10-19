@@ -1,0 +1,2 @@
+	Brute force time: 0ms
+End Brute Force-------------------------------------------
