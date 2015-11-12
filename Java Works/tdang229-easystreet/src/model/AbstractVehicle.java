@@ -16,6 +16,7 @@ import java.util.Map;
  */
 public abstract class AbstractVehicle implements Vehicle {
     
+    private static final int TEST = 1;
     /** A string constant for truck.*/
     private static final String TRUCK = "truck";
     
