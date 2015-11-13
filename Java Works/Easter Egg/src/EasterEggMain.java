@@ -9,6 +9,8 @@ public class EasterEggMain {
 		System.out.println("Test for revert Emrullah");
 		System.out.println("Test for Scott");
 		System.out.println("Test...Viktoriya");
+		System.out.println("Test...neeeeeeeeeeeeeeew");
+		
 	}
 
 }
