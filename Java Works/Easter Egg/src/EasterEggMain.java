@@ -7,7 +7,7 @@ public class EasterEggMain {
 		System.out.println("Testing...STACIE_I_HATE_ECLIPSE"); 
 		System.out.println("Test for Emrullah");
 		System.out.println("Test for revert Emrullah");
-
+		System.out.println("Test for Scott");
 	}
 
 }
