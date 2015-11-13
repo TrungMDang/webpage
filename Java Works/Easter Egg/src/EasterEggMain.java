@@ -7,8 +7,12 @@ public class EasterEggMain {
 		System.out.println("Testing...STACIE_I_HATE_ECLIPSE"); 
 		System.out.println("Test for Emrullah");
 		System.out.println("Test for revert Emrullah");
+<<<<<<< HEAD
+		System.out.println("Test for Scott");
+=======
 		System.out.println("Test...Viktoriya");
 
+>>>>>>> TrungMDang/master
 	}
 
 }
