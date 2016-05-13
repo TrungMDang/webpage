@@ -1,0 +1,15 @@
+Brute Force-----------------------------------------------
+	Cheapest sequence: [1, 3, 4]
+	Cost: 5
+	Brute force time: 0ms
+End Brute Force-------------------------------------------
+Divide and Conquer---------------------------------
+	Divide conquer cheapest cost: 5
+	Sequence: 1 3 4
+	Total time: 0ms
+End Divide and Conquer------------------------------
+Dynamic-----------------------------------------------
+	Cheapest sequence: 1 3 4 
+	Cost: 5
+	Dynamic time: 0ms
+End Dynamic-------------------------------------------
