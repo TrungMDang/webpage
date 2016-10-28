@@ -1,29 +1,55 @@
 
+#pic {
+	margin-top: 60px;
+	font-size: 20px;
+	font-family: Arial;
+	border: 1px solid red;
+}
+#about {
+	font-family:  Arial;
+	color: black;
+	display: inline-block;
+	margin: 0px 40px 0px 40px;
+	border: 1px solid red;
+	
 
-img {
-	margin: auto;
-	/*margin: 50px 50px 50px 50px;*/
+}
+#edu {
+	font-family:  Arial;
+	color: black;
+	display: inline-block;
+	margin: 0px 40px 0px 40px;
+	border: 1px solid red;
+
 }
 
-.top_nav {
+#orig {
+	font-family:  Arial;
+	color: black;
+	display: inline-block;
+	margin: 0px 40px 0px 40px;
+	border: 1px solid red;
+	
+}
+
+
+#top_nav {
 	padding: 10px 0px 10px 10px;
 	font-family: Arial;
-	overflow: auto;
 	border-bottom: 1px solid white;
 	background-color: #333333;
 	list-style: none;
 	margin: 0 auto;
 	text-align: center;
-
 }
 
-.top_nav li {
-	display: inline;
+#top_nav li{
+	display: inline-block;
 }
 
-.top_nav a {
-	width: 100;
-	font-size: 20px;
+
+#top_nav a{
+	font-size: 30px;
 	text-align: center;
 	padding-right: 10px;	
 	padding-left: 10px;	
@@ -31,21 +57,19 @@ img {
 	color: #ffd166;
 }
 
-.top_nav a:hover {
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+#top_nav a:hover {
+	display: block;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 	color: white;
 }
 
 .content {
 	float: left;
-	background-color: #333333;/*#383838;/*#f4d8cd;*/
+	background-color: white; /*#333333;/*#383838;/*#f4d8cd;*/
 	text-align: center;
 	width: 100%;
-	color: white;
+	color: black;
+	
 }
-.content img {
-	float: right;
-}
-
