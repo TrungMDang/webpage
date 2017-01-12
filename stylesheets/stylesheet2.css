@@ -52,8 +52,15 @@ ul {
 	width: 100%;
 	color: white;
 }
-.content img {
+#about img {
 	margin: auto;
 	border-radius: 50%;
 }
 
+
+
+body {
+	font-family: Calibri;
+	background-image: url("images/coffee.png");
+	//backgounrd-repeat: no-repeat;
+}
