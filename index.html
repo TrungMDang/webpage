@@ -7,8 +7,7 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Homepage</title>
 		<!-- Bootstrap -->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="font_awesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -21,72 +20,73 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 		
-		</head>
-	<body>
-		<div class="container">
-			<div class="container">
-				<ul class="nav nav-tabs nav-justified" role="tablist">
-					<li class="active">
-						<a data-toggle="tab" href="#home"><i class="glyphicon glyphicon-home" arial-hidden="true"></i> Home</a>
-					</li>
-					<li>
-						<a data-toggle="tab" href="#about"><i class="glyphicon glyphicon-user" arial-hidden="true"></i> About Me</a>
-					</li>
-					<li><a data-toggle="tab" href="#projects"><i class="fa fa-folder-open" arial-hidden="true"></i> Projects</a></li>
-					<li><a href="resume.pdf"><i class="fa fa-file" arial-hidden="true"></i> Resume</a></li>
-				</ul>
-			</div>
-			<div class="tab-content">
-				<div id="home" class="tab-pane fade in active">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-					<img src="https://lh3.googleusercontent.com/-TRMjrcknaKw/AAAAAAAAAAI/AAAAAAAAAVw/eI00sd2DLHE/s180-c-k-no/photo.jpg"/>
-							
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				
-				<div id="about" class="tap-pane fade">
-				     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-					<img src="https://lh3.googleusercontent.com/-TRMjrcknaKw/AAAAAAAAAAI/AAAAAAAAAVw/eI00sd2DLHE/s180-c-k-no/photo.jpg"/>
-							
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-				</div>
-				<div id ="projects" class="tap-pane fade">
-				      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-						<div class="row"> 
-							<div class="col-xs-4"> 
-								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
-							</div>
-							<div class="col-xs-4"> 
-								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
-							</div>
-							<div class="col-xs-4"> 
-								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
-							</div>
-						</div>
-						<div class="row"> 
-							<div class="col-xs-4"> 
-								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
-							</div>
-							<div class="col-xs-4"> 
-								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
-							</div>
-							<div class="col-xs-4"> 
-								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
-							</div>
-						</div>
-							
-					
-					
-				</div>
-				
-			</div>
-		</div>
+		<!--Font Awesome-->
+		<link href="font_awesome/css/font-awesome.min.css" rel="stylesheet">
 		
-    
-  </body>
+		<link href="stylesheets/stylesheet.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="container"> 
+			<ul class="nav nav-tabs nav-justified" style="background-color: #333333">
+				<li class="active">
+					<a data-toggle="tab" href="#home"><i class="glyphicon glyphicon-home" arial-hidden="true"></i> Home</a></li>
+				<li>
+					<a data-toggle="tab" href="#about"><i class="glyphicon glyphicon-user" arial-hidden="true"></i> About Me</a></li>
+				<li>
+					<a data-toggle="tab" href="#projects"><i class="fa fa-folder-open" arial-hidden="true"></i> Project</a></li>
+				<li>
+					<a href="resume.pdf"><i class="fa fa-file" arial-hidden="true"></i> Resume</a></li>
+			</ul>
+			<div class="tab-content frame-container">
+				<div id="home" class="tab-pane fade in active">
+					<h3>HOME</h3>
+					<p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+				  </div>
+				  <div id="about" class="tab-pane fade">
+					<section class="jumbotron text-center">
+						<h3>About Me</h3>
+						<img src="https://lh3.googleusercontent.com/-TRMjrcknaKw/AAAAAAAAAAI/AAAAAAAAAVw/eI00sd2DLHE/s180-c-k-no/photo.jpg"/>
+					</section>		
+					<p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+					<p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.</p>
+				</div>
+				<div id="projects" class="tab-pane fade text-center">
+					<section class="jumbotron text-center">
+						<h3>Example Projects</h3>	
+						<p>A collection of projects I have worked on or participated in in college.</p>
+					</section>
+					<div class="proj_center">
+						<div class="row"> 
+							<div class="col-sm-3"> 
+								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
+							</div>
+							<div class="col-sm-3"> 
+								<a class="thumbnail"> <img src="images/lbderby.png" alt="100x150"></a>
+							</div>
+							<div class="col-sm-3"> 
+								<a class="thumbnail" > <img src="images/lb.png" alt="100x150"></a>
+							</div>
+							<div class="col-sm-3"> 
+								<a class="thumbnail"> <img src="images/lbderby.png" alt="100x150"></a>
+							</div>
+						</div>
+						<div class="row"> 
+							<div class="col-sm-3"> 
+								<a class="thumbnail"> <img src="images/dungeon.png" alt="100x150"></a>
+							</div>
+							<div class="col-sm-3"> 
+								<a class="thumbnail"> <img src="images/lbderby.png" alt="100x150"></a>
+							</div>
+							<div class="col-sm-3"> 
+								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
+							</div>
+							<div class="col-sm-3"> 
+								<a class="thumbnail"> <img src="images/tetris.png" alt="100x150"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</body>
 </html>

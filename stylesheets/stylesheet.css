@@ -1,22 +1,6 @@
+.proj_center {
+	padding: 10px 50px 10px 50px;
+}
 
-/* .nav-justified {
-  background-color: #333333;
-  border-radius: 5px;
+.frame-container {
 }
-.nav-justified > li > a {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-bottom: 0;
-  font-weight: bold;
-  color: #ffd166;
-  text-align: center;
-  
-}
-.nav-justified > .active > a,
-.nav-justified > .active > a:hover,
-.nav-justified > .active > a:focus {
-  -webkit-transform: scale(1.15);
-	-ms-transform: scale(1.15);
-	transform: scale(1.15);
-}
- */
