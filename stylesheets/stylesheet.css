@@ -2,7 +2,16 @@ body {
 	background-image: url("../images/white-wall.png");
 	
 }
+h3 {
+	text-align: center;
+}
 
+.my-ul li {
+	font-size: 18px;
+	text-align: center;
+	list-style-type: none;
+	display: block;
+}
 
 .casual-overlay {
 	position: absolute;
@@ -48,7 +57,7 @@ body {
 	width: 220px;
 	height: 240px;
 	padding: 5px;
-	border: 5px solid black;
+	border: 2px solid black;
 
 }
 
