@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Homepage</title>
+		<!-- Bootstrap -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<!--Font Awesome-->
+		<link href="font_awesome/css/font-awesome.min.css" rel="stylesheet">
+		
+		<link href="stylesheets/stylesheet.css" rel="stylesheet">
+
+	</head>
+	<body style="border: 5px solid red">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle-collapsed" data-toggle="collapse"
+				</div>
+					<ul class="nav nav-tabs nav-justified navbar navbar-inverse">
+						<li class="active">
+							<a data-toggle="tab" href="#home"><i class="glyphicon glyphicon-home" arial-hidden="true"></i> Home</a></li>
+						<li>
+							<a data-toggle="tab" href="#about"><i class="glyphicon glyphicon-user" arial-hidden="true"></i> About Me</a></li>
+						<li>
+							<a data-toggle="tab" href="#projects"><i class="fa fa-folder-open" arial-hidden="true"></i> Project</a></li>
+						<li>
+							<a href="resume.pdf"><i class="fa fa-file" arial-hidden="true"></i> Resume</a></li>
+					</ul>	
+			</div>
+		</nav>	
+		<header id="home" class="container" tabindex="-1">
+				<div class="row">
+					<div class="col-lg-12">
+						<img class="wallpaper img-responsive" src="./images/newyork.png"/>
+						<div class="welcome">
+							<h1 class="name">Trung Dang</h1>
+							<span>
+								<p>I am a computer science graduate based in Seattle</p>
+								<p>	I am passionate about software development with experience in building quality projects in
+										Java, using Agile and Git.</p>
+							</span>
+						</div>
+					</div>
+				</div>
+		</header>
+
+
+
+
+		
+		<!-- <div class="main-content container container-fluid"> 							
+			<div class=" content tab-content frame-container container-fluid">
+				<div id="home" class="tab-pane fade in active text-center">
+					<div class="wallpaper-wrapper">
+						
+							<section class="wallpaper" >							
+								<div class="wallpaper-inner">
+									<h1 class="text summary welcome">Hi! I am Trung Dang, a computer science graduate based in Seattle</h1>
+									<h4>I am passionate about software development with experience in building quality projects in
+										Java, using Agile and Git.</h4>
+										
+									<h2 class="text welcome">Wanna learn more about me? Let's talk!</h2>
+								</div>							
+							</section>
+					
+					</div>
+				
+					
+				</div>	
+						
+				<div id="about" class="tab-pane fade container">	
+					<div class="jumbotron jumbotron-fluid centered">
+						<img class="my-photo" src="images/photo.jpg" width="150" height="150"></img>					
+					
+					
+					</div>
+
+				</div>
+				<div id="projects" class="tab-pane fade text-center">
+					<section class="jumbotron text-center text">
+						<h3>Example Projects</h3>	
+						<p>A collection of projects I have worked on or participated in in college.</p>
+					</section>
+					<div class="project-center">
+						<div class="row"> 
+							<div class="col-md-4"> 
+								<div class="view view-first">
+									<div class="thumbnail">
+										<img src="images/tetris.png"  alt="100x150">
+									</div>
+									<div class="mask">
+										<h3>Tetris</h3>
+										<p>A truly fun project. I implemented the GUI of the game. The game model was provided.</p>
+										<p>Learn more about Tetris <a href="https://en.wikipedia.org/wiki/Tetris">here</a>.</p>
+										<p><a class="info" href="https://github.com/TrungMDang/Starter-Projects/tree/master/Tetris">Source Code</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4"> 
+								<div class="view view-first">
+									<div class="thumbnail img-responsive">
+										<img src="images/lb.png" alt="100x150">
+									</div>
+									<div class="mask">
+										<h3>Language Library</h3>
+										<p>This is a big group project I've participated in. The team was made up of 5 people. They can be found on my LinkedIn profile.</p>
+										<p><a class="info" href="https://github.com/TrungMDang/Starter-Projects/tree/master/LanguageLibrary">Source Code</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4"> 
+								<div class="view view-first">
+									<div class="thumbnail img-responsive"> 
+										<img src="images/lbderby.png" alt="100x150">
+									</div>
+									<div class="mask">
+										<h3>Language Library Derby Version</h3>
+										<p>This version uses Java built-in Derby database offline without the need of an online database. Learn more about Derby <a href="http://db.apache.org/derby/">here.</a></p>
+										<p><a class="info" href="#">Source Code</a></p>
+									</div>
+								</div>
+							</div>							
+						</div>
+						<div class="row"> 
+							<div class="col-md-4"> 
+								<div class="view view-first">
+									<div class="thumbnail img-responsive">
+										<img src="images/dungeon.png"  alt="100x150">
+									</div>
+									<div class="mask">
+										<h3>Dungeon of Cards Game</h3>
+										<p>This is a fun game my team of 3 developed in Computational World course. I helped to implement the Camera object for the game.</p>
+										<p><a class="info" href="https://trungmdang.github.io/Dungeon-of-Cards/">Play Game!</a></p>
+										<p><a class="info" href="https://github.com/TrungMDang/Starter-Projects/tree/master/DungeonOfCards">Source Code</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4"> 
+								<div class="view view-first">
+									<div class="thumbnail img-responsive">
+										<img style="width: 600px; height: 300px" src="images/j--.png">
+									</div>
+									<div class="mask">
+										<h3>J-- Java Compiler</h3>
+										<p>The biggest source I have ever worked on in college. The source code is a light version of a Java Compiler called J-- developed by Bill Campbell, Swami Iyer, Bahar Akbal-Delibaş at University of Massachusetts in Boston. <a href="http://www.cs.umb.edu/j--/download.html">Learn more</a></p>
+										<p><a class="info" href="https://github.com/TrungMDang/Starter-Projects/tree/master/JMinusminus">Source Code</a></p>
+									</div>
+								</div>								
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div> -->
+	
+	</body>
+</html>

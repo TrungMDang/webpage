@@ -1,34 +1,97 @@
 body {
-	background-image: url("../images/white-wall.png");
-	
+	/*background-image: url("../images/newyork.png");*/
+	/*background-image: url("../images/white-wall.png");*/
+	/*background-color: #333333;*/
 }
 h3 {
 	text-align: center;
 }
 
+#home {
+	
+	
+	
+}
+.nav li a {
+	color: white;
+	font-size: 22px;
+}
+
+.wallpaper {
+	background-size: cover;	
+	background-image: url("../images/newyork.png");
+	background-image: no-repeat center center;
+	text-align: center;
+}
+/* #home h1 h4 h2 {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+ */
+
+
+.welcome {
+	padding-top: 45%;
+	padding-bottom:10%;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+}
+
+.welcome h1 {
+	font-size: 5em;
+}
+
+.welcome p {
+	font-size: 2em;
+}
+
+.welcome h2 {
+	font-size: 3em;
+}
+
+.project-center {
+	text-align: center;
+}
+.name {
+	text-align: center;
+}
+#project {
+	
+}
+#projects h1 {
+	font-size: 3em;
+}
+
+#project h3 {
+	text-align: center;
+}
+.project-intro {
+	font-size: 2em;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.profile-img {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#about h1 {
+	font-szie: 3em;
+}
 .my-ul li {
 	font-size: 18px;
 	text-align: center;
 	list-style-type: none;
 	display: block;
-}
-
-.casual-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	overflow: hidden;
-	width: 100%;
-	height:0;
-	transition: .5s ease;	
-}
-
-/*when hovered, the bottom of the image is 0px away from the parent container, flip. The height increases to 100%*/
-.flip:hover .casual-overlay{	
-
-	bottom: 0;
-	height: 100%;	
 }
 
 .row {
@@ -38,6 +101,7 @@ h3 {
 .dummy {
 	padding: 20px;
 }
+
 .centered {
 	display: -webkit-flexbox;
     display: -ms-flexbox;
@@ -48,6 +112,10 @@ h3 {
     -webkit-align-items: center;
     align-items: center;
     justify-content: center;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .about-img {
@@ -62,31 +130,40 @@ h3 {
 }
 
 .jumbotron {
-	background-image: url("../images/white-wall.png");
-	border-radius: 0px;
+	/*background-image: url("../images/white-wall.png");*/
+	border-radius: 0px;\
+	background-color: transparent;
 }
 
-.my-p {
+.frame-container {
+	background: transparent;
+}
+
+.my-photo {
+	border-radius: 50%;
 	display: block;
-	text-align: center;
-	/*border: 5px solid green;*/
-	vertical-align: center;
+	margin: auto;
 }
 
-.col-sm-8 > my-p {
-	display: block;
-	text-align: center;
-	/*border: 1px solid black;*/
-	vertical-align: center;
+.casual-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .5s ease;	
 }
 
-.col-md-4 {
-	padding-bottom: 20px;
+/*when hovered, the bottom of the image is 0px away from the parent container, flip. 
+The height increases to 100%*/
+.flip:hover .casual-overlay{	
+
+	bottom: 0;
+	height: 100%;	
 }
 
-.my-img-text {
-	border-bottom: 0.5px solid black;
-}
 /* From tutorial https://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/*/
 /* and website https://tympanus.net/Tutorials/OriginalHoverEffects/*/
 .view-first img {
@@ -97,6 +174,7 @@ h3 {
    transition: all 0.2s linear;
 }
 .view-first .mask {
+	text-align: center;
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -229,8 +307,7 @@ h3 {
    margin: 20px 0 0 0;
 }
 .view p {
-	font-style: italic;
-   font-size: 18px;
+   font-size: 22px;
    position: relative;
    padding: 10px 10px 20px;
    text-align: center;
