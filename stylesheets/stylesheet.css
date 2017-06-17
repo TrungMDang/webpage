@@ -42,15 +42,12 @@ h3 {
 @media (max-width: 400px) {
 	.gradient {
 		/* The old syntax, deprecated and prefixed, for old browsers */
-		background-image: -moz-linear-gradient(left, hsla(0, 0%, 100%, 0.4), #fcc600 50%;  #fcc600),
-			url(../images/intro-photo-1.jpg);
-		background-image: -webkit-linear-gradient(left, hsla(0, 0%, 100%, 0.4), #fcc600 50%, #fcc600),
-			url(../images/intro-photo-1.jpg);
+		background-image: -moz-linear-gradient(left, hsla(0, 0%, 100%, 0.4), #fcc600 50%;  #fcc600);
+		background-image: -webkit-linear-gradient(left, hsla(0, 0%, 100%, 0.4), #fcc600 50%, #fcc600);
 
 		/* The new syntax needed by standard-compliant browsers (Opera 12.1,
 		 IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix */
-		background-image: linear-gradient(left, hsla(0, 0%, 100%, 0.4),#fcc600 50%,  #fcc600),
-			url(../images/intro-photo-1.jpg);
+		background-image: linear-gradient(left, hsla(0, 0%, 100%, 0.4),#fcc600 50%,  #fcc600);
 	}
 	.gradient {
 		width:100%;
