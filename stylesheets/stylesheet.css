@@ -13,9 +13,12 @@ h3 {
 }
 
 
-
+.topnav {
+	width: 100%;
+}
 .nav li a {
 	color: black;
+	
 }
 .navbar-home {
 	float: left;
@@ -27,25 +30,13 @@ h3 {
 }
 
 
-#nav  {
-	border: 1px solid black;
-	
+
+button .icon-bar {
+	background-color: #888;
 }
-
-.navbar-brand {
-	font-size: 1.5em;
-}
-
-.navbar-nav li a {
-	font-size: 1.5em;
-
-}
-
-@media (max-width: 300px) {
-	ul.sites > li {
-		display: block;
-		padding: 0;
-		margin-bottom: 20px;
+@media (max-width: 400px) {
+	.name {
+		color: black;
 	}
 }
 .wallpaper {
@@ -61,8 +52,7 @@ h3 {
 @media (max-width: 400px) {
 	.wallpaper {
 
-		border: 1px solid green;
-		background-position: right 35% bottom 0px;
+		background-position: right 30% bottom 0;
 
 	}
 }
@@ -70,15 +60,17 @@ h3 {
 
 @media (max-width: 400px) {
 	.gradient {
+
 		/*The old syntax, deprecated and prefixed, for old browsers*/
-		background-image: -moz-linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg");
+		background-image: -moz-linear-gradient(hsla(0, 0%, 100%, 0.3),  #fcc600), url("../images/intro-photo-1.jpg");
 		background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg");
 
 		/*The new syntax needed by standard-compliant browsers (Opera 12.1,
 		 IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix*/
-		background-image: linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg") ;
 
-	}	
+		background-image: linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg");
+	}
+		
 }
 /* #home h1 h4 h2 {
 	position: absolute;
