@@ -12,9 +12,7 @@ h3 {
 	background-color: black;
 }
 
-.topnav {
-	width: 100%;
-}
+
 
 .nav li a {
 	color: black;
@@ -28,6 +26,7 @@ h3 {
 	font-size: 2em;
 	border: 1px solid red;
 }
+
 
 #nav  {
 	border: 1px solid black;
