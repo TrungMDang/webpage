@@ -12,12 +12,22 @@ h3 {
 	background-color: black;
 }
 
-
-.topnav {
-	width: 100%;
-}
 .nav li a {
 	color: black;
+	
+}
+.navbar-home {
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	line-height: 20px;
+	font-size: 2em;
+	border: 1px solid red;
+}
+
+
+#nav  {
+	border: 1px solid black;
 	
 }
 .navbar-home {
@@ -51,9 +61,8 @@ button .icon-bar {
 
 @media (max-width: 400px) {
 	.wallpaper {
-
-		background-position: right 30% bottom 0;
-
+		border: 1px solid green;
+		background-position: right 35% bottom 0px;
 	}
 }
 /* Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients*/
