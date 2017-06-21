@@ -7,17 +7,13 @@ h3 {
 .divider {
 	background-color: black;
 }
-.topnav {
-	padding-top: 3px;
-	padding-bottom: 3px;
-}
 
 .navbar-default .navbar-brand {
-	font-size: 1.7em;
+	/*font-size: 1.7em;*/
 }
 
 .navbar-nav > li > a {
-	font-size: 1.7em;
+	/*font-size: 1.7em;*/
 }
 button .icon-bar {
 	background-color: #888;
@@ -69,8 +65,6 @@ button .icon-bar {
 .welcome {
 	padding-top: 30%;
 	padding-bottom:30%;
-	margin-left: -100px;
-	margin-right: -100px;
 	align-items: center;
 	justify-content: center;
 	font-family: Arial;
@@ -105,23 +99,25 @@ button .icon-bar {
 .sites li a {
 	margin-bottom: 20px;
 }
+
+.aboutme {
+	padding-top: 3%;
+}
+
+.aboutme h1, p {
+	background-size:cover;
+	width: 100%;
+}
+
 .project-center {
 	text-align: center;
 }
+
 .name {
 	text-align: center;
 	color: white;
 }
-#project {
-	
-}
-#projects h1 {
-	font-size: 3em;
-}
 
-#project h3 {
-	text-align: center;
-}
 .project-intro {
 	font-size: 2em;
 	padding-top: 2%;
@@ -134,11 +130,6 @@ button .icon-bar {
 	margin-right: auto;
 }
 
-
-
-#about h1 {
-	font-szie: 3em;
-}
 .my-ul li {
 	font-size: 18px;
 	text-align: center;
