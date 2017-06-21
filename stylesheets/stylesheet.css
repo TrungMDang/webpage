@@ -1,8 +1,4 @@
-body {
-	/*background-image: url("../images/newyork.png");*/
-	/*background-image: url("../images/white-wall.png");*/
-	/*background-color: #333333;*/
-}
+
 h3 {
 	text-align: center;
 }
@@ -11,57 +7,39 @@ h3 {
 .divider {
 	background-color: black;
 }
-
-
-.nav li a {
-	color: black;
-}
-.navbar-home {
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	line-height: 20px;
-	font-size: 2em;
-	border: 1px solid red;
+.topnav {
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
-
-#nav  {
-	border: 1px solid black;
-	
-}
-.navbar-home {
-	float: left;
-	height: 50px;
-	padding: 15px 15px;
-	line-height: 20px;
-	font-size: 2em;
-	border: 1px solid red;
+.navbar-default .navbar-brand {
+	font-size: 1.7em;
 }
 
-
-
+.navbar-nav > li > a {
+	font-size: 1.7em;
+}
 button .icon-bar {
 	background-color: #888;
 }
+
 @media (max-width: 400px) {
 	.name {
-		color: black;
+		color: white;
 	}
 }
+
 .wallpaper {
 	background-size: cover;	
 	background-image: url("../images/intro-photo-1.jpg");
 	background-repeat: no-repeat;
 	background-attachment: center;
 	background-position: center;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 @media (max-width: 400px) {
 	.wallpaper {
-		border: 1px solid green;
 		background-position: right 35% bottom 0px;
 	}
 }
@@ -77,10 +55,6 @@ button .icon-bar {
 		/*The new syntax needed by standard-compliant browsers (Opera 12.1,
 		 IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix*/
 		background-image: linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg");
-	}
-	.gradient {
-		width:100%;
-		height:100%;
 	}	
 }
 /* #home h1 h4 h2 {
@@ -95,6 +69,8 @@ button .icon-bar {
 .welcome {
 	padding-top: 30%;
 	padding-bottom:30%;
+	margin-left: -100px;
+	margin-right: -100px;
 	align-items: center;
 	justify-content: center;
 	font-family: Arial;
@@ -125,11 +101,16 @@ button .icon-bar {
 	color: white;
 	border-style: none;
 }
+
+.sites li a {
+	margin-bottom: 20px;
+}
 .project-center {
 	text-align: center;
 }
 .name {
 	text-align: center;
+	color: white;
 }
 #project {
 	
