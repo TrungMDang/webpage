@@ -7,20 +7,37 @@ h3 {
 	text-align: center;
 }
 
-#home {
-	
-	
-	
-}
 
 .divider {
 	background-color: black;
 }
+
 .nav li a {
 	color: white;
 	font-size: 22px;
 }
 
+#nav  {
+	border: 1px solid black;
+	
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+}
+
+.navbar-nav li a {
+	font-size: 1.5em;
+
+}
+
+@media (max-width: 300px) {
+	ul.sites > li {
+		display: block;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+}
 .wallpaper {
 	background-size: cover;	
 	background-image: url("../images/intro-photo-1.jpg");
@@ -35,23 +52,20 @@ h3 {
 @media (max-width: 400px) {
 	.wallpaper {
 		border: 1px solid green;
-		background-position: right 0px bottom 0px;
+		background-position: right 35% bottom 0px;
+		
 	}
 }
 /* Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients*/
 @media (max-width: 400px) {
 	.gradient {
-		/* The old syntax, deprecated and prefixed, for old browsers */
-		background-image: -moz-linear-gradient(left, hsla(0, 0%, 100%, 0.4), #fcc600 50%;  #fcc600);
-		background-image: -webkit-linear-gradient(left, hsla(0, 0%, 100%, 0.4), #fcc600 50%, #fcc600);
+		/*The old syntax, deprecated and prefixed, for old browsers*/
+		background-image: -moz-linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg");
+		background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg");
 
-		/* The new syntax needed by standard-compliant browsers (Opera 12.1,
-		 IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix */
-		background-image: linear-gradient(left, hsla(0, 0%, 100%, 0.4),#fcc600 50%,  #fcc600);
-	}
-	.gradient {
-		width:100%;
-		height:100%;
+		/*The new syntax needed by standard-compliant browsers (Opera 12.1,
+		 IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix*/
+		background-image: linear-gradient(hsla(0, 0%, 100%, 0.3), #fcc600), url("../images/intro-photo-1.jpg") ;
 	}	
 }
 /* #home h1 h4 h2 {
@@ -136,14 +150,6 @@ h3 {
 	display: block;
 }
 
-.row {
-	/*border: 1px solid red;*/
-	
-}
-.dummy {
-	padding: 20px;
-}
-
 .centered {
 	display: -webkit-flexbox;
     display: -ms-flexbox;
@@ -160,20 +166,8 @@ h3 {
 	justify-content: center;
 }
 
-.about-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 220px;
-	height: 240px;
-	padding: 5px;
-	border: 2px solid black;
-
-}
-
 .jumbotron {
 	/*background-image: url("../images/white-wall.png");*/
-	border-radius: 0px;\
 	background-color: transparent;
 }
 
