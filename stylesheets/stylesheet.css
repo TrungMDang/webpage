@@ -34,11 +34,18 @@ button .icon-bar {
 	text-align: center;	
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 	.wallpaper {
 		background-position: right 35% bottom 0px;
 	}
 }
+
+@media (max-width: 350px) {
+	.wallpaper {
+		background-position: right 30% bottom 0px;
+	}
+}
+
 /* Source: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients*/
 
 @media (max-width: 400px) {
@@ -190,11 +197,11 @@ The height increases to 100%*/
 /* From tutorial https://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/*/
 /* and website https://tympanus.net/Tutorials/OriginalHoverEffects/*/
 .view-first img {
-	-webkit-transition: all 0.2s linear;
-   -moz-transition: all 0.2s linear;
-   -o-transition: all 0.2s linear;
-   -ms-transition: all 0.2s linear;
-   transition: all 0.2s linear;
+	-webkit-transition: 0.2s linear;
+   -moz-transition: 0.2s linear;
+   -o-transition:  0.2s linear;
+   -ms-transition:  0.2s linear;
+   transition:  0.2s linear;
 }
 .view-first .mask {
 	text-align: center;
@@ -202,11 +209,11 @@ The height increases to 100%*/
    filter: alpha(opacity=0);
    opacity: 0;
    background-color: rgba(255,255,255, 0.9);
-   -webkit-transition: all 0.4s ease-in-out;
-   -moz-transition: all 0.4s ease-in-out;
-   -o-transition: all 0.4s ease-in-out;
-   -ms-transition: all 0.4s ease-in-out;
-   transition: all 0.4s ease-in-out;
+   -webkit-transition:  0.4s ease-in-out;
+   -moz-transition:  0.4s ease-in-out;
+   -o-transition:  0.4s ease-in-out;
+   -ms-transition:  0.4s ease-in-out;
+   transition:  0.4s ease-in-out;
 }
 .view-first h3 {
    -webkit-transform: translateY(-100px);
@@ -217,11 +224,11 @@ The height increases to 100%*/
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+   -webkit-transition:  0.2s ease-in-out;
+   -moz-transition:  0.2s ease-in-out;
+   -o-transition:  0.2s ease-in-out;
+   -ms-transition:  0.2s ease-in-out;
+   transition:  0.2s ease-in-out;
 }
 .view-first p {
    -webkit-transform: translateY(100px);
@@ -232,11 +239,11 @@ The height increases to 100%*/
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-   -webkit-transition: all 0.2s linear;
-   -moz-transition: all 0.2s linear;
-   -o-transition: all 0.2s linear;
-   -ms-transition: all 0.2s linear;
-   transition: all 0.2s linear;
+   -webkit-transition: 0.2s linear;
+   -moz-transition:  0.2s linear;
+   -o-transition:  0.2s linear;
+   -ms-transition:  0.2s linear;
+   transition:  0.2s linear;
 }
 .view-first:hover img {
    -webkit-transform: scale(1.1,1.1);
@@ -249,11 +256,11 @@ The height increases to 100%*/
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
-   -webkit-transition: all 0.2s ease-in-out;
-   -moz-transition: all 0.2s ease-in-out;
-   -o-transition: all 0.2s ease-in-out;
-   -ms-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+   -webkit-transition:  0.2s ease-in-out;
+   -moz-transition:  0.2s ease-in-out;
+   -o-transition:  0.2s ease-in-out;
+   -ms-transition:  0.2s ease-in-out;
+   transition:  0.2s ease-in-out;
 }
 .view-first:hover .mask {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
