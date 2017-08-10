@@ -74,6 +74,7 @@
   left: 0;
   right: 0;
   text-align: center;
+  margin: auto;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }

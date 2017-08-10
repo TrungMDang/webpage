@@ -219,6 +219,22 @@ button .icon-bar {
 	font-style: none;
 }
 
+.am-content {
+	-webkit-transition: 0.7s ease;
+	-ms-transition: 0.7s ease;
+	transition: 0.7s ease;
+	
+}
+
+.h2 {
+	display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
 /* .overlay {
 	position: absolute;
 	top:0;
